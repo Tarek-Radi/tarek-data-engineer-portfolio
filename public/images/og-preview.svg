@@ -1,0 +1,24 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="36" fill="#0F1419"/>
+  <rect x="28" y="28" width="1144" height="574" rx="28" fill="url(#bg)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="84" y="164" fill="#68C1B0" font-size="22" font-family="Arial, sans-serif" font-weight="700" letter-spacing="4">AZURE DATA ENGINEER PORTFOLIO</text>
+  <text x="84" y="250" fill="#F3F7FB" font-size="58" font-family="Arial, sans-serif" font-weight="700">Tarek Mahmoud Abdelrady</text>
+  <text x="84" y="320" fill="#A8B2C1" font-size="30" font-family="Arial, sans-serif">Designing scalable data pipelines &amp; cloud data solutions</text>
+
+  <rect x="84" y="390" width="280" height="110" rx="26" fill="#131B22" stroke="rgba(74,154,142,0.35)"/>
+  <rect x="392" y="390" width="280" height="110" rx="26" fill="#131B22" stroke="rgba(74,154,142,0.35)"/>
+  <rect x="700" y="390" width="280" height="110" rx="26" fill="#131B22" stroke="rgba(74,154,142,0.35)"/>
+  <text x="114" y="438" fill="#68C1B0" font-size="20" font-family="Arial, sans-serif" font-weight="700">Azure-first pipelines</text>
+  <text x="114" y="472" fill="#F3F7FB" font-size="18" font-family="Arial, sans-serif">ADF orchestration, lakehouse patterns, curated delivery.</text>
+  <text x="422" y="438" fill="#68C1B0" font-size="20" font-family="Arial, sans-serif" font-weight="700">Databricks workflows</text>
+  <text x="422" y="472" fill="#F3F7FB" font-size="18" font-family="Arial, sans-serif">Scalable transformations with quality-aware processing.</text>
+  <text x="730" y="438" fill="#68C1B0" font-size="20" font-family="Arial, sans-serif" font-weight="700">Power BI storytelling</text>
+  <text x="730" y="472" fill="#F3F7FB" font-size="18" font-family="Arial, sans-serif">Executive dashboards aligned to real KPI decisions.</text>
+
+  <defs>
+    <linearGradient id="bg" x1="60" y1="40" x2="1140" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111920"/>
+      <stop offset="1" stop-color="#17232B"/>
+    </linearGradient>
+  </defs>
+</svg>

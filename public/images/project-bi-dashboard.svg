@@ -1,0 +1,57 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" rx="40" fill="#0F1419"/>
+  <rect x="40" y="40" width="1520" height="820" rx="34" fill="url(#bg)" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="96" y="96" width="1408" height="110" rx="24" fill="#141C23" stroke="rgba(255,255,255,0.08)"/>
+  <text x="140" y="158" fill="#F3F7FB" font-size="34" font-family="Arial, sans-serif" font-weight="700">Executive BI Command Center</text>
+  <text x="140" y="194" fill="#A8B2C1" font-size="20" font-family="Arial, sans-serif">Power BI • KPI storytelling • executive navigation</text>
+
+  <rect x="116" y="258" width="428" height="186" rx="28" fill="#131B22" stroke="rgba(74,154,142,0.35)"/>
+  <rect x="586" y="258" width="432" height="186" rx="28" fill="#131B22" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="1060" y="258" width="424" height="186" rx="28" fill="#131B22" stroke="rgba(255,255,255,0.08)"/>
+
+  <text x="154" y="318" fill="#68C1B0" font-size="22" font-family="Arial, sans-serif" font-weight="700">Revenue Trend</text>
+  <path d="M154 394C198 356 246 344 288 360C332 376 374 316 424 324C470 332 492 290 506 302" stroke="url(#line1)" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="506" cy="302" r="10" fill="#79B7FF"/>
+
+  <text x="624" y="318" fill="#68C1B0" font-size="22" font-family="Arial, sans-serif" font-weight="700">Margin Mix</text>
+  <circle cx="730" cy="372" r="58" stroke="#4A9A8E" stroke-width="20"/>
+  <path d="M730 314A58 58 0 0 1 787 365" stroke="#79B7FF" stroke-width="20" stroke-linecap="round"/>
+  <text x="808" y="382" fill="#F3F7FB" font-size="44" font-family="Arial, sans-serif" font-weight="700">24.8%</text>
+
+  <text x="1098" y="318" fill="#68C1B0" font-size="22" font-family="Arial, sans-serif" font-weight="700">Target Attainment</text>
+  <rect x="1098" y="360" width="348" height="22" rx="11" fill="#192028"/>
+  <rect x="1098" y="360" width="286" height="22" rx="11" fill="url(#bar)"/>
+  <text x="1098" y="420" fill="#F3F7FB" font-size="44" font-family="Arial, sans-serif" font-weight="700">82%</text>
+
+  <rect x="116" y="492" width="660" height="262" rx="28" fill="#131B22" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="824" y="492" width="660" height="262" rx="28" fill="#131B22" stroke="rgba(255,255,255,0.08)"/>
+  <text x="154" y="548" fill="#68C1B0" font-size="22" font-family="Arial, sans-serif" font-weight="700">Operational KPI Cards</text>
+  <rect x="154" y="586" width="180" height="116" rx="22" fill="#192028"/>
+  <rect x="356" y="586" width="180" height="116" rx="22" fill="#192028"/>
+  <rect x="558" y="586" width="180" height="116" rx="22" fill="#192028"/>
+  <text x="182" y="632" fill="#A8B2C1" font-size="20" font-family="Arial, sans-serif">Orders</text>
+  <text x="182" y="676" fill="#F3F7FB" font-size="34" font-family="Arial, sans-serif" font-weight="700">14.2K</text>
+  <text x="384" y="632" fill="#A8B2C1" font-size="20" font-family="Arial, sans-serif">Fulfillment</text>
+  <text x="384" y="676" fill="#F3F7FB" font-size="34" font-family="Arial, sans-serif" font-weight="700">96.1%</text>
+  <text x="586" y="632" fill="#A8B2C1" font-size="20" font-family="Arial, sans-serif">Lead Time</text>
+  <text x="586" y="676" fill="#F3F7FB" font-size="34" font-family="Arial, sans-serif" font-weight="700">2.8d</text>
+
+  <text x="862" y="548" fill="#68C1B0" font-size="22" font-family="Arial, sans-serif" font-weight="700">Insight Narrative</text>
+  <text x="862" y="612" fill="#F3F7FB" font-size="28" font-family="Arial, sans-serif" font-weight="700">Leadership snapshot with drill-ready context</text>
+  <text x="862" y="662" fill="#A8B2C1" font-size="22" font-family="Arial, sans-serif">A semantic layer and KPI structure designed for fast executive scanning, guided trend analysis, and trusted decision support.</text>
+
+  <defs>
+    <linearGradient id="bg" x1="80" y1="60" x2="1510" y2="850" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111920"/>
+      <stop offset="1" stop-color="#17232B"/>
+    </linearGradient>
+    <linearGradient id="line1" x1="154" y1="360" x2="506" y2="302" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4A9A8E"/>
+      <stop offset="1" stop-color="#79B7FF"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="1098" y1="371" x2="1384" y2="371" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4A9A8E"/>
+      <stop offset="1" stop-color="#79B7FF"/>
+    </linearGradient>
+  </defs>
+</svg>

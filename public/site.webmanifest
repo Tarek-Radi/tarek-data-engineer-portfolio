@@ -1,0 +1,9 @@
+{
+  "name": "Tarek Mahmoud Abdelrady Portfolio",
+  "short_name": "Tarek Portfolio",
+  "description": "Azure Data Engineer portfolio focused on cloud data platforms, ETL pipelines, and Power BI delivery.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1419",
+  "theme_color": "#0f1419"
+}

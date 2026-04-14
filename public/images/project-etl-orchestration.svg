@@ -1,0 +1,54 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" rx="40" fill="#0F1419"/>
+  <rect x="40" y="40" width="1520" height="820" rx="34" fill="url(#bg)" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="96" y="96" width="1408" height="110" rx="24" fill="#141C23" stroke="rgba(255,255,255,0.08)"/>
+  <text x="140" y="158" fill="#F3F7FB" font-size="34" font-family="Arial, sans-serif" font-weight="700">ADF Pipeline Modernization</text>
+  <text x="140" y="194" fill="#A8B2C1" font-size="20" font-family="Arial, sans-serif">Parameterization • Monitoring • Incremental delivery</text>
+
+  <rect x="118" y="282" width="270" height="252" rx="28" fill="#131B22" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="664" y="242" width="272" height="332" rx="30" fill="#131B22" stroke="rgba(74,154,142,0.4)"/>
+  <rect x="1212" y="282" width="270" height="252" rx="28" fill="#131B22" stroke="rgba(255,255,255,0.08)"/>
+
+  <text x="154" y="336" fill="#68C1B0" font-size="24" font-family="Arial, sans-serif" font-weight="700">Sources</text>
+  <text x="706" y="302" fill="#68C1B0" font-size="24" font-family="Arial, sans-serif" font-weight="700">Orchestration Layer</text>
+  <text x="1248" y="336" fill="#68C1B0" font-size="24" font-family="Arial, sans-serif" font-weight="700">Curated Outputs</text>
+
+  <rect x="154" y="370" width="198" height="58" rx="16" fill="#192028"/>
+  <rect x="154" y="446" width="198" height="58" rx="16" fill="#192028"/>
+  <text x="182" y="407" fill="#F3F7FB" font-size="20" font-family="Arial, sans-serif">SQL jobs</text>
+  <text x="182" y="483" fill="#F3F7FB" font-size="20" font-family="Arial, sans-serif">CSV drops</text>
+
+  <rect x="706" y="348" width="188" height="62" rx="18" fill="#192028"/>
+  <rect x="706" y="432" width="188" height="62" rx="18" fill="#192028"/>
+  <text x="736" y="387" fill="#F3F7FB" font-size="20" font-family="Arial, sans-serif">Triggers</text>
+  <text x="736" y="471" fill="#F3F7FB" font-size="20" font-family="Arial, sans-serif">Retry policy</text>
+  <rect x="960" y="348" width="188" height="62" rx="18" fill="#192028"/>
+  <rect x="960" y="432" width="188" height="62" rx="18" fill="#192028"/>
+  <text x="990" y="387" fill="#F3F7FB" font-size="20" font-family="Arial, sans-serif">Validation</text>
+  <text x="990" y="471" fill="#F3F7FB" font-size="20" font-family="Arial, sans-serif">Alerting</text>
+
+  <rect x="1248" y="370" width="198" height="58" rx="16" fill="#192028"/>
+  <rect x="1248" y="446" width="198" height="58" rx="16" fill="#192028"/>
+  <text x="1276" y="407" fill="#F3F7FB" font-size="20" font-family="Arial, sans-serif">SQL marts</text>
+  <text x="1276" y="483" fill="#F3F7FB" font-size="20" font-family="Arial, sans-serif">BI refresh feeds</text>
+
+  <path d="M388 408H664" stroke="url(#flow)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M936 408H1212" stroke="url(#flow)" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="526" cy="408" r="11" fill="#79B7FF"/>
+  <circle cx="1074" cy="408" r="11" fill="#79B7FF"/>
+
+  <rect x="118" y="626" width="1364" height="162" rx="26" fill="#141C23" stroke="rgba(255,255,255,0.08)"/>
+  <text x="156" y="684" fill="#F3F7FB" font-size="28" font-family="Arial, sans-serif" font-weight="700">Operational Focus</text>
+  <text x="156" y="726" fill="#A8B2C1" font-size="22" font-family="Arial, sans-serif">Centralized orchestration, clear monitoring, and reusable pipeline patterns for recurring data delivery.</text>
+
+  <defs>
+    <linearGradient id="bg" x1="80" y1="60" x2="1500" y2="840" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111920"/>
+      <stop offset="1" stop-color="#17232B"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="388" y1="408" x2="1212" y2="408" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4A9A8E"/>
+      <stop offset="1" stop-color="#79B7FF"/>
+    </linearGradient>
+  </defs>
+</svg>
