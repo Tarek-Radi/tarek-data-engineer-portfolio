@@ -2,6 +2,8 @@
 
 Single-page portfolio website built with React, Vite, and styled-components.
 
+https://tarek-data-engineer-portfolio.vercel.app/
+
 ## Scripts
 
 - `npm install`
