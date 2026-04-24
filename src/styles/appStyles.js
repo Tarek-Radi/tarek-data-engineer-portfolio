@@ -1467,8 +1467,8 @@ export const ProfileText = styled.div`
   flex: 1;
 
   h2 {
-    font-size: 4.5rem;
-    font-weight: 2000;
+    font-size: 2.5rem;
+    font-weight: 1000;
     margin: 0;
     color: var(--text-primary);
     line-height: 1.1;
