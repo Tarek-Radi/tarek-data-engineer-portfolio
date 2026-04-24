@@ -1456,9 +1456,9 @@ export const ProfileNameBlock = styled.div`
 export const ProfileRow = styled.div`
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   margin-bottom: 4.5rem;
-  width: 500%;
+  width: 100%;
 `;
 
 export const ProfileText = styled.div`
