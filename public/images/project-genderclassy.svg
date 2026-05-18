@@ -1,0 +1,30 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GenderClassy project preview</title>
+  <desc id="desc">A Streamlit-style ML application preview with name input, dictionary lookup, ML fallback, and export outputs.</desc>
+  <rect width="960" height="600" fill="#07110F"/>
+  <rect x="40" y="40" width="880" height="520" rx="18" fill="#101D1B" stroke="#2DD4BF" stroke-opacity=".28"/>
+  <rect x="72" y="76" width="816" height="64" rx="10" fill="#142521"/>
+  <circle cx="110" cy="108" r="14" fill="#14B8A6"/>
+  <circle cx="148" cy="108" r="14" fill="#F59E0B"/>
+  <rect x="188" y="96" width="230" height="24" rx="6" fill="#EAFBF8" fill-opacity=".92"/>
+  <rect x="72" y="174" width="360" height="304" rx="12" fill="#0C1715" stroke="#D3E2DD" stroke-opacity=".12"/>
+  <text x="104" y="222" fill="#F4FBF8" font-family="Inter, Arial" font-size="34" font-weight="800">GenderClassy</text>
+  <text x="104" y="258" fill="#93A7A0" font-family="Inter, Arial" font-size="18">Name prediction workflow</text>
+  <rect x="104" y="296" width="276" height="52" rx="8" fill="#142521" stroke="#2DD4BF" stroke-opacity=".32"/>
+  <text x="126" y="329" fill="#D1DED9" font-family="Inter, Arial" font-size="18">Enter or upload names</text>
+  <rect x="104" y="370" width="132" height="46" rx="23" fill="#14B8A6"/>
+  <text x="136" y="399" fill="#041312" font-family="Inter, Arial" font-size="16" font-weight="800">Predict</text>
+  <rect x="254" y="370" width="126" height="46" rx="23" fill="#19302B" stroke="#D3E2DD" stroke-opacity=".14"/>
+  <text x="286" y="399" fill="#D1DED9" font-family="Inter, Arial" font-size="16" font-weight="800">Export</text>
+  <rect x="482" y="174" width="354" height="304" rx="12" fill="#0C1715" stroke="#D3E2DD" stroke-opacity=".12"/>
+  <rect x="522" y="218" width="116" height="116" rx="58" fill="#14B8A6" fill-opacity=".14" stroke="#2DD4BF" stroke-opacity=".42"/>
+  <text x="548" y="285" fill="#5EEAD4" font-family="Inter, Arial" font-size="26" font-weight="800">99.71%</text>
+  <text x="680" y="252" fill="#F4FBF8" font-family="Inter, Arial" font-size="22" font-weight="800">Hybrid accuracy</text>
+  <text x="680" y="284" fill="#93A7A0" font-family="Inter, Arial" font-size="17">Dictionary-first inference</text>
+  <path d="M548 384H788" stroke="#2DD4BF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M548 426H740" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+  <text x="548" y="372" fill="#D1DED9" font-family="Inter, Arial" font-size="16">Dictionary hit rate 99.53%</text>
+  <text x="548" y="414" fill="#D1DED9" font-family="Inter, Arial" font-size="16">ML fallback confidence gate</text>
+  <path d="M433 326C454 326 454 326 475 326" stroke="#5EEAD4" stroke-width="3" stroke-linecap="round"/>
+  <path d="M466 314L478 326L466 338" stroke="#5EEAD4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

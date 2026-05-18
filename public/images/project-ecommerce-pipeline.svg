@@ -1,0 +1,30 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">E-commerce data pipeline preview</title>
+  <desc id="desc">CSV ingestion to PostgreSQL, dbt models, Airflow orchestration, and analytics marts.</desc>
+  <rect width="960" height="600" fill="#07110F"/>
+  <rect x="56" y="62" width="848" height="476" rx="18" fill="#101D1B" stroke="#D3E2DD" stroke-opacity=".14"/>
+  <text x="84" y="116" fill="#F4FBF8" font-family="Inter, Arial" font-size="30" font-weight="800">Olist E-commerce Data Pipeline</text>
+  <text x="84" y="150" fill="#93A7A0" font-family="Inter, Arial" font-size="18">Dockerized ELT workflow for analytics-ready marts</text>
+  <g fill="#142521" stroke="#2DD4BF" stroke-opacity=".36">
+    <rect x="84" y="220" width="146" height="104" rx="10"/>
+    <rect x="294" y="220" width="146" height="104" rx="10"/>
+    <rect x="504" y="220" width="146" height="104" rx="10"/>
+    <rect x="714" y="220" width="146" height="104" rx="10"/>
+  </g>
+  <g fill="#F4FBF8" font-family="Inter, Arial" font-weight="800" font-size="20">
+    <text x="122" y="278">CSV</text>
+    <text x="316" y="278">Postgres</text>
+    <text x="548" y="278">dbt</text>
+    <text x="740" y="278">Marts</text>
+  </g>
+  <g stroke="#5EEAD4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M240 272H284"/>
+    <path d="M272 260L284 272L272 284"/>
+    <path d="M450 272H494"/>
+    <path d="M482 260L494 272L482 284"/>
+    <path d="M660 272H704"/>
+    <path d="M692 260L704 272L692 284"/>
+  </g>
+  <rect x="218" y="378" width="524" height="76" rx="12" fill="#0C1715" stroke="#F59E0B" stroke-opacity=".38"/>
+  <text x="256" y="425" fill="#F59E0B" font-family="Inter, Arial" font-size="22" font-weight="800">Airflow orchestration with dbt quality tests</text>
+</svg>

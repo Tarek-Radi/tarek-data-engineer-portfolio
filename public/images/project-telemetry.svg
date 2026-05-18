@@ -1,0 +1,25 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Car telemetry simulation preview</title>
+  <desc id="desc">A state-machine car telemetry simulator emitting JSONL data for downstream pipelines.</desc>
+  <rect width="960" height="600" fill="#07110F"/>
+  <rect x="54" y="60" width="852" height="480" rx="18" fill="#101D1B" stroke="#D3E2DD" stroke-opacity=".14"/>
+  <text x="90" y="122" fill="#F4FBF8" font-family="Inter, Arial" font-size="30" font-weight="800">Real-Time Car Telemetry Simulation</text>
+  <path d="M188 320C208 254 258 218 340 218H556C640 218 692 254 718 320L760 330C784 336 802 358 802 383V418H150V383C150 358 166 336 188 320Z" fill="#142521" stroke="#5EEAD4" stroke-opacity=".45" stroke-width="3"/>
+  <circle cx="274" cy="420" r="42" fill="#07110F" stroke="#D3E2DD" stroke-opacity=".28" stroke-width="8"/>
+  <circle cx="674" cy="420" r="42" fill="#07110F" stroke="#D3E2DD" stroke-opacity=".28" stroke-width="8"/>
+  <path d="M290 256H540C584 256 620 278 644 320H236C250 288 266 268 290 256Z" fill="#0C1715" stroke="#2DD4BF" stroke-opacity=".28"/>
+  <g fill="#F59E0B">
+    <circle cx="260" cy="186" r="8"/>
+    <circle cx="356" cy="160" r="8"/>
+    <circle cx="462" cy="176" r="8"/>
+    <circle cx="594" cy="158" r="8"/>
+  </g>
+  <g stroke="#F59E0B" stroke-width="3" stroke-linecap="round">
+    <path d="M260 194V238"/>
+    <path d="M356 168V224"/>
+    <path d="M462 184V232"/>
+    <path d="M594 166V236"/>
+  </g>
+  <rect x="110" y="468" width="740" height="42" rx="8" fill="#0C1715" stroke="#2DD4BF" stroke-opacity=".32"/>
+  <text x="134" y="495" fill="#D1DED9" font-family="Inter, Arial" font-size="17">{"speed": 83, "rpm": 2410, "state": "cruise", "engine_temp": 91}</text>
+</svg>

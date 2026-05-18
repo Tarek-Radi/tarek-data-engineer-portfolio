@@ -8,17 +8,15 @@ export const CloseIcon = X;
 
 export const panelStyle = css`
   border: 1px solid var(--border);
-  border-radius: 28px;
-  background: rgba(20, 35, 60, 0.6);
-  backdrop-filter: blur(20px);
+  border-radius: 8px;
+  background: var(--surface);
   box-shadow: var(--shadow);
-  backdrop-filter: blur(22px);
 `;
 
 export const inputStyle = css`
   width: 100%;
   border: 1px solid var(--border);
-  border-radius: 18px;
+  border-radius: 8px;
   background: rgba(255, 255, 255, 0.02);
   color: var(--text-primary);
   padding: 0.95rem 1rem;
@@ -33,8 +31,8 @@ export const inputStyle = css`
 
   &:focus {
     outline: none;
-    border-color: rgba(74, 154, 142, 0.65);
-    box-shadow: 0 0 0 4px rgba(74, 154, 142, 0.14);
+    border-color: rgba(0, 166, 166, 0.65);
+    box-shadow: 0 0 0 4px rgba(0, 166, 166, 0.14);
   }
 `;
 
@@ -69,7 +67,7 @@ export const SkipLink = styled.a`
   top: -3rem;
   z-index: 2000;
   padding: 0.9rem 1rem;
-  border-radius: 12px;
+  border-radius: 8px;
   background: var(--surface);
   color: var(--text-primary);
   border: 1px solid var(--border);
@@ -86,7 +84,7 @@ export const TopNav = styled.header`
   right: 0;
   z-index: 1000;
   backdrop-filter: blur(20px);
-  background: rgba(12, 16, 20, 0.72);
+  background: rgba(9, 17, 16, 0.82);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   box-shadow: var(--nav-shadow);
 `;
@@ -120,12 +118,12 @@ export const BrandMark = styled.span`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, var(--accent) 0%, rgba(121, 183, 255, 0.95) 100%);
-  color: #f4f7fb;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--highlight) 100%);
+  color: #041312;
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
-  letter-spacing: 0.08em;
-  box-shadow: 0 14px 28px rgba(74, 154, 142, 0.28);
+  letter-spacing: 0;
+  box-shadow: 0 14px 28px rgba(0, 166, 166, 0.22);
 `;
 
 export const BrandText = styled.span`
@@ -135,7 +133,7 @@ export const BrandText = styled.span`
   strong {
     font-family: 'Poppins', sans-serif;
     font-size: 0.98rem;
-    letter-spacing: 0.01em;
+    letter-spacing: 0;
   }
 
   span {
@@ -161,7 +159,7 @@ export const DesktopNav = styled.nav`
 export const NavLinkButton = styled.button`
   border: 0;
   border-radius: 999px;
-  background: ${({ $active }) => ($active ? 'rgba(74, 154, 142, 0.16)' : 'transparent')};
+  background: ${({ $active }) => ($active ? 'rgba(0, 166, 166, 0.16)' : 'transparent')};
   color: ${({ $active }) => ($active ? 'var(--text-primary)' : 'var(--text-muted)')};
   padding: 0.7rem 0.95rem;
   font-weight: 600;
@@ -200,8 +198,8 @@ export const ThemeToggle = styled.button`
 
   &:hover {
     transform: translateY(-2px);
-    border-color: rgba(74, 154, 142, 0.6);
-    background: rgba(74, 154, 142, 0.1);
+    border-color: rgba(0, 166, 166, 0.6);
+    background: rgba(0, 166, 166, 0.1);
   }
 `;
 
@@ -239,15 +237,15 @@ export const MobileNavPanel = styled.nav`
 
 export const MobileNavLinkButton = styled.button`
   ${panelStyle};
-  border-radius: 18px;
+  border-radius: 8px;
   padding: 1rem 1.1rem;
   text-align: left;
   cursor: pointer;
   color: ${({ $active }) => ($active ? 'var(--text-primary)' : 'var(--text-muted)')};
   background: ${({ $active }) =>
     $active
-      ? 'linear-gradient(180deg, rgba(74, 154, 142, 0.16), rgba(25, 32, 40, 0.86))'
-      : 'linear-gradient(180deg, rgba(25, 32, 40, 0.86), rgba(25, 32, 40, 0.72))'};
+      ? 'linear-gradient(180deg, rgba(0, 166, 166, 0.16), rgba(15, 24, 23, 0.94))'
+      : 'linear-gradient(180deg, rgba(15, 24, 23, 0.94), rgba(15, 24, 23, 0.82))'};
 `;
 
 export const Main = styled.main`
@@ -256,7 +254,7 @@ export const Main = styled.main`
 `;
 
 export const HeroSection = styled.section`
-  padding: 8.8rem 0 4.5rem;
+  padding: 8.2rem 0 4.5rem;
 `;
 
 export const HeroLayout = styled.div`
@@ -278,18 +276,18 @@ export const Eyebrow = styled.p`
   margin: 0 0 1rem;
   color: var(--accent-strong);
   text-transform: uppercase;
-  letter-spacing: 0.18em;
+  letter-spacing: 0;
   font-size: 0.78rem;
   font-weight: 800;
 `;
 
 export const HeroTitle = styled.h1`
   margin: 0;
-  max-width: 12ch;
+  max-width: 14ch;
   font-family: 'Poppins', sans-serif;
-  font-size: clamp(2.7rem, 5vw, 4.9rem);
-  line-height: 1.05;
-  letter-spacing: -0.03em;
+  font-size: clamp(2.35rem, 4.6vw, 4.45rem);
+  line-height: 1.08;
+  letter-spacing: 0;
 `;
 
 export const HeroDescription = styled.p`
@@ -329,8 +327,8 @@ export const ActionRow = styled.div`
 export const PrimaryButton = styled.button`
   ${buttonBase};
   background: linear-gradient(135deg, var(--accent) 0%, var(--accent-strong) 100%);
-  color: #f4f7fb;
-  box-shadow: 0 20px 32px rgba(74, 154, 142, 0.24);
+  color: #041312;
+  box-shadow: 0 20px 32px rgba(0, 166, 166, 0.22);
 `;
 
 export const SecondaryButton = styled.button`
@@ -379,18 +377,24 @@ export const StatCard = styled.div`
   &:hover {
     transform: translateY(-6px);
     border-color: var(--accent);
-    box-shadow: 0 10px 30px rgba(74, 154, 142, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 166, 166, 0.18);
   }
 `;
 export const StatTitle = styled.div`
   font-family: 'Poppins', sans-serif;
-  font-size: 1.02rem;
-  font-weight: 700;
+  font-size: 1.75rem;
+  font-weight: 800;
   transition: 0.3s ease;
 
   ${StatCard}:hover & {
     color: var(--accent-strong);
   }
+`;
+
+export const StatLabel = styled.div`
+  margin-top: 0.2rem;
+  color: var(--text-secondary);
+  font-weight: 700;
 `;
 
 export const StatDescription = styled.p`
@@ -412,6 +416,7 @@ export const HeroVisual = styled.div`
 `;
 
 export const VisualGlow = styled.div`
+  display: none;
   position: absolute;
   inset: 10% 8%;
   border-radius: 44px;
@@ -424,9 +429,7 @@ export const VisualPanel = styled.div`
   position: relative;
   width: min(520px, 100%);
   padding: 1.4rem;
-  background:
-    linear-gradient(180deg, rgba(25, 32, 40, 0.92), rgba(15, 20, 25, 0.9)),
-    radial-gradient(circle at top right, rgba(74, 154, 142, 0.16), transparent 28%);
+  background: linear-gradient(180deg, var(--surface) 0%, var(--surface-strong) 100%);
 `;
 
 export const VisualHeader = styled.div`
@@ -437,7 +440,7 @@ export const VisualEyebrow = styled.p`
   margin: 0;
   color: var(--accent-strong);
   text-transform: uppercase;
-  letter-spacing: 0.16em;
+  letter-spacing: 0;
   font-size: 0.75rem;
   font-weight: 800;
 `;
@@ -456,7 +459,7 @@ export const VisualPipeline = styled.div`
 
 export const PipelineStage = styled.div`
   padding: 1rem 1rem 1.05rem;
-  border-radius: 22px;
+  border-radius: 8px;
   border: 1px solid var(--border);
   background: rgba(255, 255, 255, 0.04);
 `;
@@ -469,7 +472,7 @@ export const StageLabel = styled.span`
   color: var(--accent-strong);
   font-size: 0.76rem;
   font-weight: 800;
-  letter-spacing: 0.12em;
+  letter-spacing: 0;
   text-transform: uppercase;
 `;
 
@@ -505,7 +508,7 @@ export const VisualFooter = styled.div`
 
 export const VisualMiniCard = styled.div`
   padding: 0.9rem;
-  border-radius: 18px;
+  border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   background: rgba(255, 255, 255, 0.03);
   display: flex;
@@ -555,7 +558,7 @@ export const SectionTitle = styled.h2`
   font-family: 'Poppins', sans-serif;
   font-size: clamp(1.9rem, 1.55rem + 1vw, 3rem);
   line-height: 1.15;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
 `;
 
 export const SectionDescription = styled.p`
@@ -593,7 +596,7 @@ export const AboutCopy = styled.div`
   &:hover {
     transform: translateY(-6px);
     border-color: var(--accent);
-    box-shadow: 0 10px 30px rgba(74, 154, 142, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 166, 166, 0.18);
   }
 `;
 
@@ -611,7 +614,7 @@ export const HighlightCard = styled.div`
   &:hover {
     transform: translateY(-6px);
     border-color: var(--accent);
-    box-shadow: 0 10px 30px rgba(74, 154, 142, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 166, 166, 0.18);
   }
 `;
 
@@ -655,8 +658,14 @@ export const SkillCard = styled.article`
   &:hover {
     transform: translateY(-6px);
     border-color: var(--accent);
-    box-shadow: 0 10px 30px rgba(74, 154, 142, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 166, 166, 0.18);
   }
+`;
+
+export const SkillCardHeader = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
 `;
 
 export const SkillIconWrap = styled.div`
@@ -665,14 +674,14 @@ export const SkillIconWrap = styled.div`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 18px;
+  border-radius: 8px;
   background: var(--accent-soft);
   color: var(--accent-strong);
   transition: 0.3s ease;
 
   ${SkillCard}:hover & {
     transform: scale(1.08);
-    background: rgba(74, 154, 142, 0.2);
+    background: rgba(0, 166, 166, 0.18);
   }
 `;
 
@@ -714,8 +723,8 @@ export const ChevronDot = styled.span`
 
 export const ProjectGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.1rem;
 
   @media (max-width: 1040px) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -726,24 +735,59 @@ export const ProjectGrid = styled.div`
   }
 `;
 
+export const ProjectGridItem = styled.div`
+  min-width: 0;
+  grid-column: ${({ $featured }) => ($featured ? 'span 2' : 'auto')};
+
+  @media (max-width: 700px) {
+    grid-column: auto;
+  }
+`;
+
 export const ProjectCard = styled.article`
   ${panelStyle};
   overflow: hidden;
-  display: flex;
+  display: ${({ $featured }) => ($featured ? 'grid' : 'flex')};
+  grid-template-columns: ${({ $featured }) => ($featured ? 'minmax(0, 0.95fr) minmax(0, 1.05fr)' : 'none')};
   flex-direction: column;
+  min-height: 100%;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color: var(--border-strong);
+    box-shadow: 0 18px 36px rgba(0, 166, 166, 0.16);
+  }
+
+  @media (max-width: 880px) {
+    display: flex;
+  }
 `;
 
 export const ProjectImageWrap = styled.div`
   position: relative;
   overflow: hidden;
   border-bottom: 1px solid var(--border);
+  min-height: ${({ $featured }) => ($featured ? '100%' : 'auto')};
+
+  @media (max-width: 880px) {
+    min-height: auto;
+  }
 `;
 
 export const ProjectImage = styled.img`
   width: 100%;
   aspect-ratio: 16 / 10;
+  height: ${({ $featured }) => ($featured ? '100%' : 'auto')};
   object-fit: cover;
   transition: transform 320ms ease;
+
+  @media (max-width: 880px) {
+    height: auto;
+  }
 
   ${ProjectCard}:hover & {
     transform: scale(1.03);
@@ -760,7 +804,7 @@ export const ProjectBadge = styled.span`
   color: #f4f7fb;
   font-size: 0.74rem;
   font-weight: 800;
-  letter-spacing: 0.12em;
+  letter-spacing: 0;
   text-transform: uppercase;
 `;
 
@@ -830,9 +874,28 @@ export const ProjectActions = styled.div`
   padding-top: 1.3rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
+  justify-content: flex-start;
+  gap: 0.75rem;
   flex-wrap: wrap;
+`;
+
+export const ProjectActionButton = styled.button`
+  ${buttonBase};
+  padding: 0.7rem 0.9rem;
+  border-color: var(--border);
+  background: rgba(255, 255, 255, 0.035);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+`;
+
+export const ProjectActionLink = styled.a`
+  ${buttonBase};
+  padding: 0.7rem 0.9rem;
+  border-color: ${({ $primary }) => ($primary ? 'transparent' : 'var(--border)')};
+  background: ${({ $primary }) =>
+    $primary ? 'linear-gradient(135deg, var(--accent) 0%, var(--accent-strong) 100%)' : 'rgba(255, 255, 255, 0.035)'};
+  color: ${({ $primary }) => ($primary ? '#041312' : 'var(--text-primary)')};
+  font-size: 0.9rem;
 `;
 
 export const InlineActionButton = styled.button`
@@ -882,7 +945,7 @@ export const PipelineFlow = styled.div`
 `;
 
 export const FlowCard = styled.div`
-  border-radius: 20px;
+  border-radius: 8px;
   border: 1px solid var(--border);
   background: rgba(255, 255, 255, 0.03);
   padding: 1rem;
@@ -892,7 +955,7 @@ export const FlowLabel = styled.span`
   color: var(--accent-strong);
   font-size: 0.76rem;
   font-weight: 800;
-  letter-spacing: 0.14em;
+  letter-spacing: 0;
   text-transform: uppercase;
 `;
 
@@ -925,11 +988,11 @@ export const DashboardCard = styled.article`
 export const DashboardIconWrap = styled.div`
   width: 3.2rem;
   height: 3.2rem;
-  border-radius: 20px;
+  border-radius: 8px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(74, 154, 142, 0.16), rgba(121, 183, 255, 0.12));
+  background: linear-gradient(135deg, rgba(0, 166, 166, 0.16), rgba(245, 158, 11, 0.12));
   color: var(--accent-strong);
 `;
 
@@ -955,7 +1018,7 @@ export const SignalList = styled.ul`
 
 export const SignalItem = styled.li`
   padding: 0.8rem 0.9rem;
-  border-radius: 16px;
+  border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.06);
   background: rgba(255, 255, 255, 0.03);
   color: var(--text-secondary);
@@ -1003,7 +1066,7 @@ export const Timeline = styled.div`
     top: 0.75rem;
     bottom: 0.75rem;
     width: 1px;
-    background: linear-gradient(180deg, rgba(74, 154, 142, 0.48), rgba(74, 154, 142, 0.02));
+    background: linear-gradient(180deg, rgba(0, 166, 166, 0.48), rgba(0, 166, 166, 0.02));
   }
 
   @media (max-width: 820px) {
@@ -1027,7 +1090,7 @@ export const TimelineItem = styled.article`
   &:hover {
     transform: translateY(-6px);
     border-color: var(--accent);
-    box-shadow: 0 10px 30px rgba(74, 154, 142, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 166, 166, 0.18);
   }
 
   @media (max-width: 820px) {
@@ -1045,7 +1108,7 @@ export const TimelineMarker = styled.span`
   height: 1.25rem;
   border-radius: 999px;
   background: linear-gradient(135deg, var(--accent) 0%, var(--highlight) 100%);
-  box-shadow: 0 0 0 8px rgba(74, 154, 142, 0.12);
+  box-shadow: 0 0 0 8px rgba(0, 166, 166, 0.12);
 
   @media (max-width: 820px) {
     left: 0.3rem;
@@ -1061,7 +1124,7 @@ export const TimelinePeriod = styled.span`
   color: var(--accent-strong);
   font-size: 0.8rem;
   font-weight: 800;
-  letter-spacing: 0.14em;
+  letter-spacing: 0;
   text-transform: uppercase;
 `;
 
@@ -1102,7 +1165,7 @@ export const CertificationCard = styled.article`
   &:hover {
     transform: translateY(-6px);
     border-color: var(--accent);
-    box-shadow: 0 10px 30px rgba(74, 154, 142, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 166, 166, 0.18);
   }
 `;
 
@@ -1112,15 +1175,15 @@ export const CertificationIconWrap = styled.div`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 18px;
-  background: rgba(74, 154, 142, 0.12);
+  border-radius: 8px;
+  background: rgba(0, 166, 166, 0.12);
   color: var(--accent-strong);
 `;
 
 export const CertificationIssuer = styled.span`
   color: var(--accent-strong);
   text-transform: uppercase;
-  letter-spacing: 0.14em;
+  letter-spacing: 0;
   font-size: 0.74rem;
   font-weight: 800;
 `;
@@ -1137,6 +1200,49 @@ export const CertificationText = styled.p`
   line-height: 1.85;
 `;
 
+export const ResumePanel = styled.div`
+  ${panelStyle};
+  padding: clamp(1.4rem, 3vw, 2rem);
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+  gap: 1.4rem;
+  align-items: start;
+
+  @media (max-width: 840px) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+`;
+
+export const ResumeContent = styled.div`
+  min-width: 0;
+`;
+
+export const CertificationMiniList = styled.div`
+  display: grid;
+  gap: 0.8rem;
+`;
+
+export const CertificationMiniItem = styled.div`
+  padding: 0.9rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.035);
+  display: grid;
+  gap: 0.3rem;
+
+  span {
+    color: var(--accent-strong);
+    font-size: 0.78rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  strong {
+    color: var(--text-primary);
+    line-height: 1.45;
+  }
+`;
+
 export const ContactGrid = styled.div`
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
@@ -1148,9 +1254,9 @@ export const ContactGrid = styled.div`
 `;
 
 export const ContactIntroCard = styled.div`
-  ${panelStyle};
-  padding: 1.55rem;
+  padding: 0.35rem 0.25rem;
   display: grid;
+  align-content: start;
   gap: 1rem;
 `;
 
@@ -1172,7 +1278,7 @@ export const ContactCardGrid = styled.div`
 `;
 
 export const ContactInfoCard = styled.a`
-  border-radius: 20px;
+  border-radius: 8px;
   border: 1px solid var(--border);
   background: rgba(255, 255, 255, 0.03);
   padding: 1rem;
@@ -1186,15 +1292,15 @@ export const ContactInfoCard = styled.a`
 
   &:hover {
     transform: translateY(-2px);
-    border-color: rgba(74, 154, 142, 0.58);
-    background: rgba(74, 154, 142, 0.08);
+    border-color: rgba(0, 166, 166, 0.58);
+    background: rgba(0, 166, 166, 0.08);
   }
 `;
 
 export const ContactInfoIcon = styled.span`
   width: 2.9rem;
   height: 2.9rem;
-  border-radius: 18px;
+  border-radius: 8px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1261,11 +1367,11 @@ export const FieldTextarea = styled.textarea`
 export const FormStatusMessage = styled.p`
   margin: 0;
   padding: 0.95rem 1rem;
-  border-radius: 16px;
+  border-radius: 8px;
   border: 1px solid
-    ${({ $type }) => ($type === 'error' ? 'rgba(255, 126, 126, 0.38)' : 'rgba(74, 154, 142, 0.32)')};
+    ${({ $type }) => ($type === 'error' ? 'rgba(255, 126, 126, 0.38)' : 'rgba(0, 166, 166, 0.32)')};
   background: ${({ $type }) =>
-    $type === 'error' ? 'rgba(255, 126, 126, 0.1)' : 'rgba(74, 154, 142, 0.1)'};
+    $type === 'error' ? 'rgba(255, 126, 126, 0.1)' : 'rgba(0, 166, 166, 0.1)'};
   color: ${({ $type }) => ($type === 'error' ? '#ffc4c4' : 'var(--text-secondary)')};
   line-height: 1.7;
 `;
@@ -1380,8 +1486,8 @@ export const SocialIconLink = styled.a`
 
   &:hover {
     transform: translateY(-2px);
-    border-color: rgba(74, 154, 142, 0.58);
-    background: rgba(74, 154, 142, 0.08);
+    border-color: rgba(0, 166, 166, 0.58);
+    background: rgba(0, 166, 166, 0.08);
   }
 `;
 
@@ -1405,7 +1511,7 @@ export const BackToTopButton = styled.button`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: rgba(12, 16, 20, 0.92);
+  background: rgba(9, 17, 16, 0.92);
   box-shadow: 0 20px 32px rgba(6, 10, 14, 0.25);
   cursor: pointer;
   opacity: ${({ $visible }) => ($visible ? 1 : 0)};
@@ -1418,8 +1524,8 @@ export const BackToTopButton = styled.button`
     background 180ms ease;
 
   &:hover {
-    border-color: rgba(74, 154, 142, 0.58);
-    background: rgba(74, 154, 142, 0.12);
+    border-color: rgba(0, 166, 166, 0.58);
+    background: rgba(0, 166, 166, 0.12);
   }
     
 `;
@@ -1432,10 +1538,10 @@ export const ProfileBadge = styled.div`
 `;
 
 export const ProfileImage = styled.img`
-  width: 240px;
-  height: 250px;
+  width: 76px;
+  height: 76px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 8px;
   border: 2px solid var(--border-strong);
 `;
 
@@ -1457,7 +1563,7 @@ export const ProfileRow = styled.div`
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-bottom: 4.5rem;
+  margin-bottom: 1.5rem;
   width: 100%;
 `;
 
@@ -1467,17 +1573,36 @@ export const ProfileText = styled.div`
   flex: 1;
 
   h2 {
-    font-size: 2.5rem;
-    font-weight: 1000;
+    font-size: clamp(1.2rem, 1rem + 0.8vw, 1.55rem);
+    font-weight: 800;
     margin: 0;
     color: var(--text-primary);
     line-height: 1.1;
   }
 
   span {
-    font-size: 1.2rem;
+    font-size: 0.95rem;
     color: var(--text-muted);
     opacity: 0.9;
     line-height: 1.4;
   }
+`;
+
+export const SkillBadgeGrid = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+`;
+
+export const SkillBadge = styled.span`
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.2rem;
+  padding: 0.55rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.035);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 600;
 `;

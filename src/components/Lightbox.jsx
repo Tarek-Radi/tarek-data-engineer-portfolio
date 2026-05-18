@@ -18,8 +18,8 @@ const Dialog = styled.div`
   position: relative;
   width: min(1080px, 100%);
   border: 1px solid var(--border);
-  border-radius: 28px;
-  background: linear-gradient(180deg, rgba(25, 32, 40, 0.95), rgba(15, 20, 25, 0.94));
+  border-radius: 8px;
+  background: linear-gradient(180deg, var(--surface) 0%, var(--surface-strong) 100%);
   box-shadow: var(--shadow);
   overflow: hidden;
 `;
@@ -42,7 +42,7 @@ const Label = styled.span`
   color: var(--accent-strong);
   font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0;
   text-transform: uppercase;
 `;
 
@@ -76,17 +76,15 @@ const IconButton = styled.button`
 
   &:hover {
     transform: translateY(-2px);
-    border-color: rgba(74, 154, 142, 0.6);
-    background: rgba(74, 154, 142, 0.12);
+    border-color: rgba(0, 166, 166, 0.6);
+    background: rgba(0, 166, 166, 0.12);
   }
 `;
 
 const ImageWrap = styled.figure`
   margin: 0;
   position: relative;
-  background:
-    radial-gradient(circle at top right, rgba(74, 154, 142, 0.14), transparent 30%),
-    linear-gradient(180deg, rgba(15, 20, 25, 0.2), rgba(15, 20, 25, 0.65));
+  background: linear-gradient(180deg, rgba(15, 24, 23, 0.2), rgba(15, 24, 23, 0.65));
 `;
 
 const PreviewImage = styled.img`
@@ -122,8 +120,8 @@ const NavArrow = styled.button`
 
   &:hover {
     transform: translateY(-50%) scale(1.04);
-    background: rgba(74, 154, 142, 0.16);
-    border-color: rgba(74, 154, 142, 0.64);
+    background: rgba(0, 166, 166, 0.16);
+    border-color: rgba(0, 166, 166, 0.64);
   }
 `;
 

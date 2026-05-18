@@ -1,0 +1,29 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SQL Server data warehouse preview</title>
+  <desc id="desc">Bronze, Silver, and Gold warehouse layers leading into a star schema model.</desc>
+  <rect width="960" height="600" fill="#07110F"/>
+  <rect x="64" y="58" width="832" height="484" rx="18" fill="#101D1B" stroke="#D3E2DD" stroke-opacity=".14"/>
+  <text x="96" y="118" fill="#F4FBF8" font-family="Inter, Arial" font-size="30" font-weight="800">SQL Server Data Warehouse</text>
+  <g>
+    <rect x="108" y="190" width="180" height="110" rx="10" fill="#513B1C" stroke="#F59E0B" stroke-opacity=".55"/>
+    <rect x="390" y="190" width="180" height="110" rx="10" fill="#19302B" stroke="#5EEAD4" stroke-opacity=".46"/>
+    <rect x="672" y="190" width="180" height="110" rx="10" fill="#142521" stroke="#D3E2DD" stroke-opacity=".22"/>
+    <text x="152" y="254" fill="#F4FBF8" font-family="Inter, Arial" font-size="24" font-weight="800">Bronze</text>
+    <text x="436" y="254" fill="#F4FBF8" font-family="Inter, Arial" font-size="24" font-weight="800">Silver</text>
+    <text x="726" y="254" fill="#F4FBF8" font-family="Inter, Arial" font-size="24" font-weight="800">Gold</text>
+  </g>
+  <g stroke="#5EEAD4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M300 245H378"/>
+    <path d="M366 233L378 245L366 257"/>
+    <path d="M582 245H660"/>
+    <path d="M648 233L660 245L648 257"/>
+  </g>
+  <rect x="348" y="382" width="264" height="72" rx="12" fill="#0C1715" stroke="#2DD4BF" stroke-opacity=".38"/>
+  <text x="414" y="427" fill="#5EEAD4" font-family="Inter, Arial" font-size="22" font-weight="800">Star Schema</text>
+  <path d="M480 300V382" stroke="#5EEAD4" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#142521" stroke="#D3E2DD" stroke-opacity=".18">
+    <rect x="164" y="382" width="118" height="72" rx="10"/>
+    <rect x="678" y="382" width="118" height="72" rx="10"/>
+    <rect x="420" y="480" width="118" height="42" rx="8"/>
+  </g>
+</svg>
